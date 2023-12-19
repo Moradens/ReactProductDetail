@@ -1,0 +1,42 @@
+.zaklad{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    width: 49%;
+}
+.right{
+    display: flex;
+    width: 49%;
+}
+.Left{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.Item{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background: aqua;
+    margin-bottom: 20px;
+}
+.LeftItem{
+    flex-direction: column;
+    display: flex;
+    width: 49%;
+}
+.RightItem{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 49%;
+}
+.but{
+    background: aliceblue;
+    padding: 10px;
+}
